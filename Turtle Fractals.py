@@ -15,7 +15,7 @@ tur.pendown() #introductery functions
 
 
 def star(turtle, size): #fractal function
-    if size <= 10: #initial fractal size, #if fractal size is less than 10 in size re-iterate the pre-existing pattern at its resolution fo size.
+    if size <= 10: #initial fractal size, #if fractal size is less than 10 in size re-iterate the pre-existing pattern at its resolution of size.
         return
     else:
         for i in range(5): 
